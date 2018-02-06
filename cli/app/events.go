@@ -8,8 +8,8 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/docker/libcompose/project"
-	"github.com/docker/libcompose/project/events"
+	"github.com/redradrat/libcompose/project"
+	"github.com/redradrat/libcompose/project/events"
 	"github.com/sirupsen/logrus"
 	"github.com/urfave/cli"
 )

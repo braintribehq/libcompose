@@ -18,7 +18,7 @@ import (
 	"github.com/docker/docker/pkg/progress"
 	"github.com/docker/docker/pkg/streamformatter"
 	"github.com/docker/docker/pkg/term"
-	"github.com/docker/libcompose/logger"
+	"github.com/redradrat/libcompose/logger"
 	"github.com/sirupsen/logrus"
 	"golang.org/x/net/context"
 )

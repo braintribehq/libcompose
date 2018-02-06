@@ -1,8 +1,8 @@
 package config
 
 import (
-	"github.com/docker/libcompose/utils"
-	"github.com/docker/libcompose/yaml"
+	"github.com/redradrat/libcompose/utils"
+	"github.com/redradrat/libcompose/yaml"
 )
 
 // ConvertServices converts a set of v1 service configs to v2 service configs

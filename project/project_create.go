@@ -5,8 +5,8 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/docker/libcompose/project/events"
-	"github.com/docker/libcompose/project/options"
+	"github.com/redradrat/libcompose/project/events"
+	"github.com/redradrat/libcompose/project/options"
 )
 
 // Create creates the specified services (like docker create).

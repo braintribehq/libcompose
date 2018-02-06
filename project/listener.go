@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"io/ioutil"
 
-	"github.com/docker/libcompose/project/events"
+	"github.com/redradrat/libcompose/project/events"
 	"github.com/sirupsen/logrus"
 )
 

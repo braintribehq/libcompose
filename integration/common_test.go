@@ -13,9 +13,9 @@ import (
 
 	"github.com/docker/docker/api/types"
 	"github.com/docker/docker/client"
-	lclient "github.com/docker/libcompose/docker/client"
-	"github.com/docker/libcompose/docker/container"
-	"github.com/docker/libcompose/labels"
+	lclient "github.com/redradrat/libcompose/docker/client"
+	"github.com/redradrat/libcompose/docker/container"
+	"github.com/redradrat/libcompose/labels"
 	"github.com/sirupsen/logrus"
 
 	. "gopkg.in/check.v1"

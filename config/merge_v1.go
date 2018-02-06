@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"path"
 
-	"github.com/docker/libcompose/utils"
+	"github.com/redradrat/libcompose/utils"
 	"github.com/sirupsen/logrus"
 )
 

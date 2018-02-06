@@ -6,11 +6,11 @@ import (
 	"golang.org/x/net/context"
 	check "gopkg.in/check.v1"
 
-	"github.com/docker/libcompose/docker"
-	"github.com/docker/libcompose/docker/ctx"
-	"github.com/docker/libcompose/project"
-	"github.com/docker/libcompose/project/events"
-	"github.com/docker/libcompose/project/options"
+	"github.com/redradrat/libcompose/docker"
+	"github.com/redradrat/libcompose/docker/ctx"
+	"github.com/redradrat/libcompose/project"
+	"github.com/redradrat/libcompose/project/events"
+	"github.com/redradrat/libcompose/project/options"
 )
 
 func (s *APISuite) TestEvents(c *check.C) {
