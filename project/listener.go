@@ -2,6 +2,7 @@ package project
 
 import (
 	"bytes"
+	"io/ioutil"
 
 	"github.com/docker/libcompose/project/events"
 	"github.com/sirupsen/logrus"
@@ -71,6 +72,7 @@ func (d *defaultListener) start() {
 		if infoEvents[event.EventType] {
 			logf = logrus.Infof
 		}
+		logrus.SetOutput(ioutil.Discard)
 
 		if event.ServiceName == "" {
 			logf("Project [%s]: %s %s", d.project.Name, event.EventType, buffer.Bytes())

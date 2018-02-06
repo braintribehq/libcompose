@@ -46,7 +46,7 @@ func (n *Network) Remove(ctx context.Context) error {
 		fmt.Printf("Network %s is external, skipping", n.fullName())
 		return nil
 	}
-	fmt.Printf("Removing network %q\n", n.fullName())
+	// fmt.Printf("Removing network %q\n", n.fullName())
 	return n.client.NetworkRemove(ctx, n.fullName())
 }
 
