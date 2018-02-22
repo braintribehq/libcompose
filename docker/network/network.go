@@ -74,7 +74,7 @@ func (n *Network) EnsureItExists(ctx context.Context) error {
 }
 
 func (n *Network) create(ctx context.Context) error {
-	fmt.Printf("Creating network %q with driver %q\n", n.fullName(), n.driver)
+	// fmt.Printf("Creating network %q with driver %q\n", n.fullName(), n.driver)
 	_, err := n.client.NetworkCreate(ctx, n.fullName(), types.NetworkCreate{
 		Driver:  n.driver,
 		Options: n.driverOptions,
