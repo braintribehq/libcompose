@@ -43,7 +43,7 @@ func (n *Network) Inspect(ctx context.Context) (types.NetworkResource, error) {
 // Remove removes the current network (from docker engine)
 func (n *Network) Remove(ctx context.Context) error {
 	if n.external {
-		fmt.Printf("Network %s is external, skipping", n.fullName())
+		//fmt.Printf("Network %s is external, skipping", n.fullName())
 		return nil
 	}
 	// fmt.Printf("Removing network %q\n", n.fullName())
